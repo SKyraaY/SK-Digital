@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+
+.logo {
+    height: 100px;
+    display: flex;
+}
+
+.titlesite {
+    font-family: 'Indie Flower', sans-serif;
+    color: white;
+    padding-left: 40px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.logotesla {
+    width: 20%;
+    display: flex;
+    margin: auto;
+}
+
+.bloclogo {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.bloc {
+    background-color: black;
+    height: 50px;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+}
+
+.bloctexte {
+    padding-top: 8px;
+}
+
+.bloc:hover {
+    background-color: white;
+    font-size: large;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+p {
+    font-family: 'Gantari', sans-serif;
+}
+
+.bloc1 {
+    position: relative;
+}
+
+.title {
+    font-weight: 600;
+    color: black;
+    font-family: 'Rock Salt', sans-serif;
+    position: absolute;
+    top: 1%;
+    padding-left: 15px;
+    text-decoration: underline;
+}
+
+.sitetesla {
+    display: flex;
+    font-size: x-large;
+    color: black;
+    position: absolute;
+    top: 90%;
+    margin-left: 350px;
+}
+
+.cybertruck {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.titretexte {
+    padding-bottom: 30px;
+}
+
+.texte {
+    font-family: 'Gantari', sans-serif;
+    height: 100px;
+    display: block;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.descriptif {
+    background-color: beige;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container0 {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 130px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.cybertruck0 {
+    width: 50%;
+}
+
+.description0 {
+    color: white;
+    text-align:left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container1 {
+    background-color: rgb(154, 154, 146);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cybertruck1 {
+    width: 50%;
+}
+
+.description1 {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container2 {
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cybertruck2 {
+    width: 50%;
+}
+
+.description2 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container3 {
+    background-color: rgb(154, 154, 146);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cybertruck3 {
+    width: 50%;
+}
+
+.description3 {
+    color: black;
+    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container4 {
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cybertruck4 {
+    width: 50%;
+}
+
+.description4 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blocvideo1 {
+    height: 625px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.video1 {
+    text-align: center;
+    color: black;
+    align-items: center;
+    justify-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration:underline;
+}
+
+.presentation {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.blocvideo2 {
+    background-color: black;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.video2 {
+    width: auto;
+    background-color: black;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.test {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.footer {
+    height: 100px;
+    background: linear-gradient(to left, blue,violet);
+}
+
+.logof {
+    height: 100px;
+    display: flex;
+}
+
+.footer1 {
+    display: block;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
